@@ -1,0 +1,101 @@
+
+/*====================== Contenedor Principal =============================*/
+
+.contenedorPrincipalGokids {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+/*====================== NAVBAR =============================*/
+
+.contenidoLi{
+    display: flex;
+    justify-content: end;
+}
+
+.navDerecho{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*====================== Carrousel =============================*/
+.contenedorCarrousel {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.imagenCarrousel {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+#carouselExampleCaptions{
+    padding: 0px;
+}
+
+
+
+
+/*====================== Footer =============================*/
+.piedepagina {
+    background: #111111;
+    color: #ccc;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .piedepagina .redes_sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .piedepagina .redes_sociales a {
+    color: #ccc;
+    font-size: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .piedepagina .redes_sociales a:hover {
+    color: #fff;
+  }
+
+  .contenidoAbajo iframe{
+    width: 100%;
+    height: 300px;
+    
+  }
+
+  /*====================== Contenedor SECTION ONE =============================*/
+
+  .contenedorSectionOneRow{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+  }
+
+  .contenidoSectionOneCard{
+    overflow: hidden;
+   
+  }
+
+  .contenidoSectionOneCard img{
+   
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
