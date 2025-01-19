@@ -1,23 +1,26 @@
 body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100%;
   background-color: blue;
   padding: 0px;
   margin: 0px;
 }
 
 .contenedorPrincipal {
- 
-
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-around;
-  background-image: url("./img/fondo4.jpg");
+  background-image: url("./img/imagenFondo2.png");
   background-repeat: no-repeat;
-  background-size: contain;
- 
- 
+  background-size: cover;
+  background-position: center;
+
 }
 
 .izquierda {
